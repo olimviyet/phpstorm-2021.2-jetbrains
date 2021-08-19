@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="m2_log" value="error_log(print_r(&quot;hey\n&quot;, true), 3, &quot;/tmp/pix_tmp.log&quot;);" description="logging with text" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
