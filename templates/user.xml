@@ -4,4 +4,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="m2_db_schema" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;schema xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&#10;        xsi:noNamespaceSchemaLocation=&quot;urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd&quot;&gt;&#10;&lt;/schema&gt;" description="add cml tpl" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
