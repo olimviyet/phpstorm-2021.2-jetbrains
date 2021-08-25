@@ -9,4 +9,9 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="m2_register" value="use Magento\Framework\Component\ComponentRegistrar;&#10;&#10;ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Magento_Customer', __DIR__);&#10;" description="registration .php xml" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
