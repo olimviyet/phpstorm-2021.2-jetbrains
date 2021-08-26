@@ -14,4 +14,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="m2_module" value="&lt;?xml version=&quot;1.0&quot;?&gt;&#10;&#10;&lt;config xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&#10;        xsi:noNamespaceSchemaLocation=&quot;urn:magento:framework:Module/etc/module.xsd&quot;&gt;&#10;    &lt;module name=&quot;Magento_Customer&quot;&gt;&#10;    &lt;/module&gt;&#10;&lt;/config&gt;&#10;" description="module.xml" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
