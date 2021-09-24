@@ -29,4 +29,9 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="m2_log_docker" value="error_log(print_r(&quot;$requestType\n&quot;, true), 3, &quot;/var/www/html/var/log/pix_tmp.log&quot;);" description="logging with text" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
