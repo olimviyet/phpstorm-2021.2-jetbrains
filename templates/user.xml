@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="m2_log" value="error_log(print_r(&quot;hey\n&quot;, true), 3, &quot;/tmp/pix_tmp.log&quot;);" description="logging with text" toReformat="false" toShortenFQNames="true">
+  <template name="m2_log" value="error_log(print_r(&quot;_here_\n&quot;, true), 3, BP . &quot;/var/log/pix_tmp.log&quot;);" description="logging with text" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
@@ -27,11 +27,6 @@
   <template name="m2_events" value="&lt;?xml version=&quot;1.0&quot;?&gt;&#10;&lt;config xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;urn:magento:framework:Event/etc/events.xsd&quot;&gt;&#10;&lt;/config&gt;" description="events xml file" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML" value="true" />
-    </context>
-  </template>
-  <template name="m2_log_docker" value="error_log(print_r(&quot;$requestType\n&quot;, true), 3, &quot;/var/www/html/var/log/pix_tmp.log&quot;);" description="logging with text" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
     </context>
   </template>
 </templateSet>
