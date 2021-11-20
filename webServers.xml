@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="9c43bb19-f4e5-425c-b655-7c85c1f1f3c3" name="madcow" url="http://devolimjon.usx.core">
-        <fileTransfer rootFolder="/var/www/vhosts/madcow" accessType="SFTP" host="devolimjon.usx.core" port="22" sshConfigId="cf248f07-819b-4155-a2f1-bae6329af41e" sshConfig="cpap-owner@devolimjon.usx.core:22 key" keyPair="true">
+        <fileTransfer rootFolder="/var/www/vhosts/madcow" accessType="SFTP" host="aether-olimjon.usx.core" port="22" sshConfigId="cf248f07-819b-4155-a2f1-bae6329af41e" sshConfig="olimjon.akhmedov@aether-olimjon.usx.core:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
