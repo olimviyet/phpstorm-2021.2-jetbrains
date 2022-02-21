@@ -2,7 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping ext="plantunl" type="PLAIN_TEXT" />
-      <mapping ext="graphqls" type="PLAIN_TEXT" />
+      <removed_mapping ext="graphqls" approved="true" type="GraphQL" />
     </extensionMap>
   </component>
 </application>
