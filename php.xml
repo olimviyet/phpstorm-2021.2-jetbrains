@@ -7,9 +7,9 @@
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 7.4">
-        <phpinfo binary_type="PHP" php_cli="/usr/bin/php" path_separator=":" version="8.1.4">
-          <additional_php_ini>/etc/php/conf.d/xdebug.ini</additional_php_ini>
-          <configuration_file>/etc/php/php.ini</configuration_file>
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7" path_separator=":" version="7.4.28">
+          <additional_php_ini />
+          <configuration_file>/etc/php7/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="include_path" value=".:" />
           </configuration_options>
