@@ -1,7 +1,7 @@
 <application>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="88eaf9b2-2dc7-4bb1-b296-0e8ea18d1e12" name="PHP 7.4" home="$USER_HOME$/.phpenv/shims/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="88eaf9b2-2dc7-4bb1-b296-0e8ea18d1e12" name="PHP 7.4" home="" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
 </application>
