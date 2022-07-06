@@ -1,7 +1,7 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig host="aether-olimjon.usx.core" id="cf248f07-819b-4155-a2f1-bae6329af41e" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="olimjon.akhmedov" />
+      <sshConfig host="35.193.184.105" id="cf248f07-819b-4155-a2f1-bae6329af41e" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="master_rgwhtfvgxe" useOpenSSHConfig="true" />
     </configs>
   </component>
 </application>
