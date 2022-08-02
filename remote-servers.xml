@@ -6,5 +6,11 @@
         <option name="certificatesPath" />
       </configuration>
     </remote-server>
+    <remote-server name="Docker2" type="docker">
+      <configuration>
+        <option name="apiUrl" value="unix:///run/user/1000/docker.sock" />
+        <option name="certificatesPath" />
+      </configuration>
+    </remote-server>
   </component>
 </application>
