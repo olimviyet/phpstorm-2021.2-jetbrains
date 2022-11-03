@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="m2_log" value="error_log(print_r(&quot;_here_\n&quot;, true), 3, BP . &quot;/var/log/pix_tmp.log&quot;);" description="logging with text" toReformat="false" toShortenFQNames="true">
+  <template name="m2_log" value="error_log(print_r(__METHOD__ . ':' . __LINE__ .&quot;here_\n&quot;, true), 3, BP . &quot;/var/log/pix_tmp.log&quot;);" description="logging with text" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
